@@ -24,6 +24,7 @@ def get_version():
 
 class NaClConan(ConanFile):
     name = 'nacl'
+    version = get_version()
     license = 'Apache-2.0'
     description='NaCl is a configuration language for IncludeOS that you can use to add for example interfaces and firewall rules to your service.'
     url='https://github.com/includeos/NaCl'
