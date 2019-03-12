@@ -35,7 +35,6 @@ class NaClConan(ConanFile):
         "revision" : "auto"
     }
 
-    no_copy_source=True
     default_user="includeos"
     default_channel="test"
 
