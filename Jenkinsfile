@@ -8,7 +8,7 @@ pipeline {
     CPUS = """${sh(returnStdout: true, script: 'nproc')}"""
     CC = 'clang-6.0'
     CXX = 'clang++-6.0'
-    PACKAGE = 'nacl'
+    PACKAGE = 'NaCl'
     USER = 'includeos'
     CHAN = 'test'
     REMOTE = "${env.CONAN_REMOTE}"
